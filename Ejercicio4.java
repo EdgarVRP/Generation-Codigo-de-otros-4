@@ -17,12 +17,12 @@ public class Ejercicio4 {
       int g = 2;
       switch (j1) {
         case "piedra":
-          if (j2 == "tijeras") {
+          if (j2.equals("tijeras")) {
             g = 1;
           }
 
         case "papel":
-          if (j2 == "piedra") {
+          if (j2.equals("piedra")) {
             g = 1;
           }
         case "tijeras":
